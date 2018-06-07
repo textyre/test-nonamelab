@@ -1,0 +1,36 @@
+{
+  "name": "test-nonamelab",
+  "version": "1.0.0",
+  "description": "Test for nonamelab. Page-Proofs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/textyre/test-nonamelab.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "uliyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/textyre/test-nonamelab/issues"
+  },
+  "homepage": "https://github.com/textyre/test-nonamelab#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-cleanhtml": "^1.0.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-watch": "^5.0.0",
+    "imagemin-pngquant": "^5.1.0"
+  }
+}

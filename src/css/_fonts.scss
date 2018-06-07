@@ -1,0 +1,31 @@
+$path: '../fonts/';
+
+@font-face {
+    font-family:'Fira-Thin';
+    src: url('#{$path}FiraSansCondensed-Thin.eot');
+	  src: url('#{$path}FiraSansCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+		url('#{$path}FiraSansCondensed-Thin.woff2') format('woff2'),
+		url('#{$path}FiraSansCondensed-Thin.woff') format('woff'),
+		url('#{$path}FiraSansCondensed-Thin.ttf') format('truetype'),
+		url('#{$path}FiraSansCondensed-Thin.otf') format('opentype'),
+		url('#{$path}FiraSansCondensed-Thin.svg#FiraSansCondensed-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Fira';
+    src: url('#{$path}FiraSansCondensed-Regular.eot');
+	  src: url('#{$path}FiraSansCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+		url('#{$path}FiraSansCondensed-Regular.woff2') format('woff2'),
+		url('#{$path}FiraSansCondensed-Regular.woff') format('woff'),
+		url('#{$path}FiraSansCondensed-Regular.ttf') format('truetype'),
+		url('#{$path}FiraSansCondensed-Regular.otf') format('opentype'),
+		url('#{$path}FiraSansCondensed-Regular.svg#FiraSansCondensed-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-00FE;
+}
